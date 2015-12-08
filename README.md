@@ -14,4 +14,10 @@ This is a quick starter for how to create and work with git branching.
 
 	$ git checkout master
 
-	!!!!Remember if you have made commits on a different branch the branch master will be behind on commits from the other branches.
+	!!!!Remember if you have made commits on a branch all the other branches will be behind on commits. Meaning if you are working and making commits on branchName and switch back to branch master it will not have the updated commits you have made to branchName.
+
+	If want to check what branch you are working on.
+
+	$ git branch
+
+	git branch will show what branch you are working on with a star ex( * master) and will also show what branches you have available ex (* master  branchName).
