@@ -20,4 +20,16 @@ This is a quick starter for how to create and work with git branching.
 
 	$ git branch
 
-	git branch will show what branch you are working on with a star ex( * master) and will also show what branches you have available ex (* master  branchName).
+	git branch will show what branch you are working on with a star ex( * master) and will also show what branches you have available ex(* master  branchName ).
+
+	-----------------------------------------------------------
+
+	Once you have made changes to your working branch and want to merge your changes from branchName to master branch. Make sure that master is up to date with the remote master.
+
+	$ git pull origin master
+
+	Will get the most recent changes from the remote branch master (Github). 
+
+
+
+
